@@ -14,11 +14,12 @@ public class ContaTerminal {
         System.out.println("Digite o nome do titular da conta: ");
         String nomeTitular = scanner.next();
 
-        System.out.println("Digite o saldo da conta: ");
-        double saldo = scanner.nextDouble();
+        System.out.println("Digite o valor do depósito: ");
+        double deposito = scanner.nextDouble();
+        double saldo = deposito;
 
         System.out.println("Olá, " + nomeTitular + ", obrigado por abrir sua conta conosco! Sua agência é " + agencia
-                + " e o número da sua conta é " + numeroConta + ". Seu saldo atual é de R$" + saldo);
+                + " e o número da sua conta é " + numeroConta + ". Seu saldo atual é de R$ " + saldo);
 
     }
 }
